@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@600&family=Quicksand&display=swap');
+
+body {
+    margin: auto;
+    width : 80%;
+    text-align: center;
+    background-color:white;
+}
+
+/* styling the form */
+form{
+    text-align: center;
+    background-color: black;
+    padding: 2.5rem 1rem;
+    border-radius: 5rem;
+    margin: 1rem 2rem;
+}
+
+/* Main heading styling */
+h1 {
+    font-size: 4rem;
+    font-family: 'Chakra Petch', sans-serif;
+    color:black; 
+}
+
+/* styling the form fields */
+select{                                                
+    font-family: 'Quicksand', sans-serif;
+    font-size: 1.5rem;
+    font-weight: 400;
+    padding: 1rem 1.5rem;
+    margin: 0.5rem;
+    background-color: white;
+    color: black;
+    width: 50%;
+    transition-duration: 0.2s;
+}
+
+/* adding hover styles to form fields */
+select:hover {                                  
+    background-color: rgb(44, 44, 44);
+    color:white;
+    cursor: pointer;
+    padding: 1rem 2rem;
+    transition-duration: 0.2s;
+}
+
+/* Button styling */
+button {
+    width: 50%;
+    background-color: white;
+    color:black;
+    padding: 1rem 1.5rem;
+    margin-top : 1rem;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 2rem;
+    transition-duration: 0.2s;
+}
+
+/* adding hover effects to buttons */
+button:hover {
+    cursor: pointer;
+    background-color: rgb(44, 44, 44);
+    color:white;
+    transition-duration: 0.2s;
+}
+
+/* styling of the numbers in the timer */
+span{
+    padding: 0.55rem 1.5rem;
+    margin: 0.3rem;
+    text-align: center;
+    font-family: 'Chakra Petch', sans-serif;
+}
+
+/* styling the look of the timer */
+p {
+    font-size: 2rem;
+}
+
+h4 {
+    font-size: 1.3rem;
+    font-family: 'Chakra Petch', sans-serif;
+}
+
+h3 {
+    font-size: 3rem;
+    font-family: 'Quicksand', sans-serif;
+}

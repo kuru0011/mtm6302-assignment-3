@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Countdown</title>
+</head>
+<body>
+    <h1>Countdown Timer</h1>        <!--Heading-->
+    <form id="form">
+        <select name="year" id="formYear">                                  <!--creating form field for the year-->
+            <option value="2022" class="options">2022</option>
+            <option value="2021" class="options">2021</option>
+            <option value="2020" class="options">2020</option>
+            <option value="2019" class="options">2019</option>
+            <option value="2018" class="options">2018</option>
+            <option value="2017" class="options">2017</option>
+        </select>
+        <select name="month" id="formMonth">                                <!--creating form field for the month-->
+            <option value="1" class="month1">January</option>
+            <option value="2" class="month2">February</option>
+            <option value="3" class="month3">March</option>
+            <option value="4" class="month4">April</option>
+            <option value="5" class="month5">May</option>
+            <option value="6" class="month6">June</option>
+            <option value="7" class="month7">July</option>
+            <option value="8" class="month8">August</option>
+            <option value="9" class="month9">September</option>
+            <option value="10" class="month10">October</option>
+            <option value="11" class="month11">November</option>
+            <option value="12" class="month12">December</option>
+        </select>
+        <select name="day" id="formDay"></select>
+        <button type="submit" id="formButton">Submit</button>                <!--creating submit button-->
+    </form>
+
+    <div id="finalDisplay"></div>                                              <!--cotainer for the output-->
+    <div id="reset"></div>
+
+    <script src="script.js"></script>                                   <!--linking javascript-->
+</body>
+</html>
